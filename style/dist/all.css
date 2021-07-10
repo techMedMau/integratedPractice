@@ -1,0 +1,154 @@
+@charset "UTF-8";
+* {
+  font-family: "微軟正黑體", sans-serif;
+  box-sizing: border-box;
+  font-size: 15px;
+  line-height: 1.4rem;
+}
+
+.container {
+  max-width: 885px;
+}
+
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.p_1 {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.title {
+  text-align: center;
+}
+
+.table {
+  width: 830px;
+  border-collapse: collapse;
+  color: #707070;
+  margin-bottom: 15%;
+}
+
+.table_head {
+  font-size: 14px;
+  padding: 1rem 0;
+  background-color: #f2f2f2;
+  border-bottom: 2px solid #ccc;
+  border-top: 1px solid #E0E0E0;
+  border-left: 1px solid #E0E0E0;
+  border-right: 1px solid #E0E0E0;
+}
+
+.row_cell {
+  height: 75px;
+}
+
+.border {
+  border: 1px solid #E0E0E0;
+}
+
+.id {
+  width: 7%;
+}
+
+.city {
+  width: 8%;
+}
+
+.pic {
+  width: 12%;
+  position: relative;
+}
+
+.name {
+  width: 20%;
+}
+
+.intro {
+  width: 53%;
+}
+
+.img_inner {
+  width: 78px;
+  height: 52px;
+}
+
+.img_resp {
+  width: 100%;
+  height: 100%;
+}
+
+.row_cell:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.pages {
+  padding-left: 2rem;
+  margin: 0;
+}
+
+.page_item {
+  margin: 1rem 0;
+  display: block;
+  list-style: none;
+  width: 25px;
+  margin: 0.5rem 0.7rem;
+  color: #707070;
+  font-weight: 500;
+}
+
+.active {
+  border-right: 3px solid #3375B0;
+  color: #000;
+  font-weight: 500;
+}
+
+.link {
+  color: #3F82B6;
+}
+
+.row_cell:hover {
+  background-color: #F0F4F7;
+}
+
+.img_resp_zoom {
+  display: block;
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  border: 10px solid #fff;
+  left: 105%;
+  top: 0.7rem;
+  width: 280px;
+  height: 187px;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.3);
+  display: none;
+}
+
+.img_inner:hover .img_resp_zoom {
+  display: block;
+}
+
+.loading {
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.invisible {
+  display: none;
+}
